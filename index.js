@@ -14,7 +14,7 @@ for (var i =0; i < players.length; i++){
 return array;
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(){
   var facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -24,9 +24,18 @@ function johnLennonFacts(facts){
 
 var newfacts = [];
 
-for (var i = 0, i<=facts.length; i++){
-newFacts.push(facts[i] +"!!!")
+var i = 0
+
+while (i<facts.length){
+  newfacts.push(facts[i] + "!!!")
+  i++
+
 }
-console.log(newFacts)
 return newFacts
+
+}
+
+
+
+
 }
