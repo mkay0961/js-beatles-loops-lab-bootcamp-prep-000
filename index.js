@@ -28,11 +28,12 @@ console.log(newFacts)
 return newFacts
 }
 
-function iLoveTheBeatles(num){
-array = [];
-  do { array.push("I love the Beatles!")
-  num++
+function iLoveTheBeatles(num) {
+    var love = [];
+    do {
+        love.push("I love the Beatles!");
+        num++;
+    } while (num < 15);
 
-} while (num < 15);
-return array
+    return love;
 }
