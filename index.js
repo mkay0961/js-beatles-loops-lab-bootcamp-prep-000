@@ -22,7 +22,7 @@ function johnLennonFacts(facts){
   "He hated the sound of his own voice"
 ];
 
-for (var i = 0, i<=facts.length; i++){
+for (var i = 0, i>facts.length; i++){
 newFacts = facts.push(facts[i] +"!!!")
 }
 console.log(newFacts)
