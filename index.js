@@ -28,11 +28,11 @@ function johnLennonFacts() {
 iLoveTheBeatles(num){
 
 var beatles = []
-var i = 0
+var num = 0
 
-  do (num<15){
-  beatles.push("I love the beatles " + beatles[i])
-  i++
+  do {
+  beatles.push("I love the beatles " + beatles[i] +"!" )
+  num++
 }
 console.log(beatles)
 return beatles
