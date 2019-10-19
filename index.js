@@ -30,7 +30,6 @@ return newFacts
 
 function iLoveTheBeatles(num){
 array = [];
-num = 0
   do { array.push("I love the Beatles")
   num++
 
