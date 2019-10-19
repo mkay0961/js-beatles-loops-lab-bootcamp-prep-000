@@ -20,13 +20,10 @@ function johnLennonFacts(){
 ];
 var newFacts= []
 i = 0
-
 while (i<facts.length){
    newFacts.push(facts[i] + "!!!")
   i++
 }
-
-
 console.log(newFacts)
 return newFacts
 }
