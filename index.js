@@ -27,7 +27,7 @@ var newfacts = [];
 var i = 0
 
 while (i<facts.length){
-  newfacts.push(facts[i] + "!!!");
+  newfacts.push(facts[i] +"!!!");
   i++;
 
 }
