@@ -31,6 +31,7 @@ while (i<facts.length){
   i++
 
 }
+console.log(newFacts)
 return newFacts
 
 }
