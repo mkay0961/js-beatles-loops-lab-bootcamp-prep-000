@@ -27,3 +27,12 @@ while (i < facts.length){
 console.log(newFacts)
 return newFacts
 }
+
+function iLoveTheBeatles(num){
+array = [];
+num = 0
+  do { array.push("I love the Beatles")
+  num++
+    
+} while (num < 15);
+}
