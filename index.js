@@ -24,3 +24,16 @@ function johnLennonFacts() {
   }
   return array;
 }
+
+iLoveTheBeatles(num){
+
+var beatles = []
+var i = 0
+
+  do (num<15){
+  beatles.push("I love the beatles " + beatles[i])
+  i++
+}
+console.log(beatles)
+return beatles
+}
