@@ -10,6 +10,6 @@ for (let i === 0; i < array.length;i++){
     "done"
   }
 }
-console.log
+console.log(array)
 return array;
 }
