@@ -23,7 +23,7 @@ function johnLennonFacts(facts){
 ];
 
 for (var i = 0, i<=facts.length; i++){
-newFacts = array.push(facts[i] +"!!!")
+newFacts = facts.push(facts[i] +"!!!")
 }
 console.log(newFacts)
 return newFacts
