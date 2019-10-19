@@ -25,25 +25,15 @@ function johnLennonFacts() {
   return array;
 }
 
-// iLoveTheBeatles(num){
-//
-// var beatles = []
-// var num = 0
-//
-//   do {
-//   beatles.push("I love the beatles " + beatles[i] +"!" )
-//   num++
-// } while (num < 15)
-// console.log(beatles)
-// return beatles
-// }
+iLoveTheBeatles(num){
 
-function iLoveTheBeatles(num) {
-    var love = [];
-    do {
-        love.push("I love the Beatles!");
-        num++;
-    } while (num < 15);
+var beatles = []
+var num = 0
 
-    return love;
+  do {
+  beatles.push("I love the beatles!" )
+  num++
+} while (num < 15)
+console.log(beatles)
+return beatles
 }
