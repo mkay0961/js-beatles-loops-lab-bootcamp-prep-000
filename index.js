@@ -23,7 +23,7 @@ i = 0
 do { newFacts.push(facts[i] + "!!!")
 i++
 } while (i<facts.length);
-}
+
 console.log(newFacts)
 return newFacts
 }
